@@ -1,0 +1,384 @@
+
+
+
+.name_div{
+
+    text-align: center;
+    font-size: 72px;
+
+}
+.wall,hr{
+    background: rgba(255, 255, 255, 0.11) url("http://localhost:8080/%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0%20%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d0%b9/chocolate_owl/assets/img/chocolate_owl.jpg");
+    position: relative;
+    width: 94%;
+    margin-left:3%;
+    margin-right: 3%;
+    background-size:100%;
+    
+    
+    
+}
+
+.header{
+
+    color: black;
+    font-size:100%;
+    font-style: italic;
+    
+}
+
+.nav-pills a{
+    color: rgb(46, 27, 27);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+
+
+.icon-bar,.navbar-toggle{
+    border: 1px solid black;
+}
+
+.name_div{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    box-shadow: 10px 10px 10px rgba(136, 40, 40, 0.473)
+    
+}
+
+
+form#goods_form.col-xs-12.col-sm-6.col-md-6{
+    position: inherit;
+}
+
+.footer{
+    position: relative;
+    margin-bottom: 0;
+    background: whitesmoke;
+    text-align: center;
+    color: rgb(85, 63, 2);
+
+
+}
+
+div.catalog{
+    display: block;
+    padding: 0 !important;
+    margin: 10% 5% 10% 10%;
+    display: none;
+}
+
+
+
+.goods_form{
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+.goods{
+    width: 100%;
+    align-content: center;
+    padding: 10%;
+    margin: 0 !important;
+    margin-top:-10% !important;
+    
+
+}
+
+.goods img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+
+.goods input{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    font-size: 150%;
+    padding: 0;
+    display: inline;
+    margin-left: 30% !important;
+
+}
+
+.goods div{
+    display: block;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgba(255, 0, 0, 0.1);
+    border-radius: 30%;
+    font-size: 150%;
+    color:black;
+  
+}
+
+.delivery_info,.contact_info{
+    display: none;
+
+}
+
+a#cb{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255);
+    box-shadow:00px 0px 10px 0px rgba(136, 40, 40, 0.473);
+    
+
+}
+.contact_info{
+
+    text-align: left;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+
+.soc{
+    margin-top:80%;
+    background-color:red !important;
+    width: 10%;
+    height: 10%;
+
+}
+.con{
+    float: left;
+    margin-top:5%;
+}
+
+
+.adress{
+    float: right;
+    margin-top:5%;
+}
+
+.contact_info iframe{
+    float: right;
+
+}
+
+
+#price,#delivery,#contacts{
+ background-color: rgba(252, 252, 252, 0.527)
+}
+
+.basket{
+    position: fixed;
+    right: 5%;
+    top:0;
+
+}
+
+h1.float-right.col-xs-12.col-sm-12.col-md-12.form_orders.order_name{
+    font-size: 150% !important;
+    text-align: center;
+}
+iframe#order{
+    width: 50%;
+    height: 300px;
+    position: fixed;
+    margin-right:50%;
+    margin-left:20%;
+    top:10%;
+    box-shadow: 0 0 100px 5000px rgba(12, 12, 12, 0.815);
+    display: none;
+    
+}
+
+h1.float-right.col-xs-12.col-sm-12.col-md-12.navbar-left.form_orders{
+    left:0 ;
+    font-size: 10px !important;
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 797px){
+
+    
+
+.nav-pills>li,li.btn.btn-light {
+    float: none !important;
+    width: 100%;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255);
+}
+.nav-pills>li{
+    text-align: center !important;
+}
+
+.name_div{
+
+    text-align: center;
+    font-size: 28px;
+
+}
+.wall,hr{
+    background: rgba(255, 255, 255, 0.11) url("http://localhost:8080/%d0%a0%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b0%20%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d0%b9/chocolate_owl/assets/img/chocolate_owl.jpg");
+    position: relative;
+    width: 94%;
+    margin-left:3%;
+    margin-right: 3%;
+    background-size:100%;
+    
+    
+    
+}
+
+.col-xs-12{
+    font-size: 250% !important;
+    font-weight: bold !important;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255);
+    
+}
+
+.nav-pills a{
+    color: rgb(46, 27, 27);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+
+
+.icon-bar,.navbar-toggle{
+    border: 1px solid black;
+}
+
+.name_div{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    box-shadow: 10px 10px 10px rgba(136, 40, 40, 0.473)
+    
+}
+
+
+
+
+.footer{
+    position: relative;
+    margin-bottom: 0;
+    background: whitesmoke;
+    text-align: center;
+    color: rgb(85, 63, 2);
+
+
+}
+
+div.catalog{
+    display: block;
+    padding: 0 !important;
+    margin: 10% 5% 10% 10%;
+    display: none;
+}
+
+
+
+.goods_form{
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+.goods{
+    width: 100%;
+    align-content: center;
+    padding: 10%;
+    margin: 0 !important;
+    margin-top:-10% !important;
+    
+
+}
+
+.goods img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    
+}
+
+
+
+
+.goods input{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-size: 40% !important;
+    padding: 0;
+    display: inline;
+    margin-left: 10% !important;
+
+}
+
+.goods div{
+    display: block;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgba(255, 0, 0, 0.1);
+    border-radius: 30%;
+    font-size: 100%;
+    color:black;
+  
+}
+
+.delivery_info,.contact_info{
+    display: none;
+
+}
+
+.contact_info{
+
+    text-align: left;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+
+.soc{
+    margin-top:80%;
+    background-color:red !important;
+    width: 10%;
+    height: 10%;
+
+}
+.con{
+    float: left;
+    margin-top:5%;
+}
+
+
+.adress{
+    float: right;
+    margin-top:5%;
+}
+
+.contact_info iframe{
+    float: right;
+    width: 94%;
+
+}
+
+
+#price,#delivery,#contacts{
+ background-color: rgba(252, 252, 252, 0.774)
+}
+
+.basket{
+    position: fixed;
+    right: 5%;
+    top:0;
+
+}
+
+img.navbar-left.mr-3.float-left{
+    width: 50px;
+    height: 50px;
+}
+
+
+}
